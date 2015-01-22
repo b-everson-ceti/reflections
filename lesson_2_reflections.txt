@@ -9,3 +9,13 @@ What value do you think it offers?
 The working directory is the location on disk, so the staging area is in memory and 
 it also hasn't been commited to the repository. It allows you to ensure that you have 
 the right files "staged" before you commit them. 
+
+-How can you use the staging area to make sure you have one commit per logical change?
+
+You can check to see that you have only the correct files added to the staging area. 
+If it is not correct you can reset it to start over.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can keep different versions separate so that you can either experiment with features, or have versions that 
+have different features, such as different languages. 
