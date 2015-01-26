@@ -19,3 +19,20 @@ If it is not correct you can reset it to start over.
 
 Branches can keep different versions separate so that you can either experiment with features, or have versions that 
 have different features, such as different languages. 
+
+-How do the diagrams help you visualize the branch structure?
+
+They show each branch as its own line, and shows commits in a linear fashion. The use of history shows which commits were made 
+on each branch in order. If reachability isn't covered more in depth I will probably have to come up with some exercises for myself.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The commits from the branch being merged get added to the history for the branch that it is being merged into. A commit 
+that merges the two branches holds information about both of its parent commits, which should be where the history comes from.
+When you delete a branch, you are not deleting commits, you are deleting a label that is used to reach them.
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: It's faster to merge automatically, leading to much less work. 
+
+Cons: Automatic merging will take out lines remove from both commits, even if they are coincidentally deleted.
