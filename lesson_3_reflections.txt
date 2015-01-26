@@ -1,0 +1,4 @@
+-When would you want to use a remote repository rather than keeping all your work local?
+
+When you are working as part of a team and the deployment version isn't on your local machine. If you want to have a backup of code. 
+When you are contributing to someone's github project.
