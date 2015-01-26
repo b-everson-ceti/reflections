@@ -6,3 +6,11 @@ When you are contributing to someone's github project.
 -Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 This would serve as a reminder that you are overwriting files in your working branch. 
+
+-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are a copy of a github repository from one github account to another. Clones are when you copy a repository from one machine 
+to another. A branch is when you create a new space of history to develop separately from your main development history. Forks are 
+used when you want to have your own copy of someone's project on github. Clones are when you want to make a copy of a project on your 
+local machine that will be related to the copy on the other machine. Branches are used to create a different version of a piece of 
+software or when you want to experiment with changes.
